@@ -1,14 +1,29 @@
-# Patent API Benchmark & Unified ETL
+# 🚀 Patent API Benchmark & Unified ETL
 
-Projet visant à comparer plusieurs sources de données de brevets (USPTO, EPO, WIPO, Google Patents)
-et construire un dataset unifié pour l’analyse (classification, clustering, séries temporelles, géographie).
+## 📌 Overview
+This project benchmarks multiple patent data sources (USPTO, EPO, WIPO, Google Patents API) and builds a unified dataset for advanced data analysis.
 
-## Structure
+## ⚙️ Tech Stack
+- Python
+- SQL
+- Pandas
+- Scikit-learn
+- APIs
 
-- `data/raw/` : données brutes (API / dumps)
-- `data/processed/` : données unifiées
-- `docs/` : matrice API + data dictionary
-- `notebooks/` : notebooks Jupyter
-- `src/` : scripts ETL et analytics
-- `run_logs/` : logs des appels API
-- `report/` : rapport final
+## 🏗️ Architecture
+1. Data collection from multiple patent APIs  
+2. Data cleaning and normalization  
+3. Unified dataset creation  
+4. Machine learning analysis  
+
+## 📊 Features
+- Multi-source API ingestion  
+- ETL pipeline for heterogeneous data  
+- Supervised learning (classification)  
+- Unsupervised learning (clustering)  
+- Time series and geographic analysis  
+
+## ▶️ How to Run
+```bash
+pip install -r requirements.txt
+python src/main.py
